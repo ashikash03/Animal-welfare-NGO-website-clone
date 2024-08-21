@@ -274,6 +274,12 @@ a {
     #animals_in_treatment .card-img-top {
         height: 200px; /* Reduce image height */
     }
+    
+    #animals_in_treatment .card-body a {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
 
     #final_cards .card-body p {
         margin-top: 60%;
@@ -285,6 +291,89 @@ a {
 
     .footer .third-row {
         margin-top: 5%;
+    }
+
+    #animals_in_treatment .btn{
+        width: 100%; /* Flex button to the width of the screen */
+        padding: 10px; /* Add padding for better touch interaction */
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #Campaign_Section .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #Campaign_Section img {
+        width: 100%; /* Ensure images resize */
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    #Campaign_Section .card-body {
+        font-size: 14px; /* Resize content */
+    }
+
+    #banner-2 .container-fluid{
+        padding: 20px;
+        text-align: center;
+    }
+
+    #banner-2 img {
+        width: 100%; /* Ensure images resize */
+        height: auto;
+    }
+
+    #banner-2 p {
+        font-size: 14px; /* Resize content */
+        margin-top: 10px;
+    }
+
+    #final_cards card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #final_cards img {
+        width: 100%; /* Ensure images resize */
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    #final_cards .card-body{
+        font-size: 14px; /* Resize content */
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer-section .first-row,
+    .footer-section .second-row,
+    .footer-section .third-row {
+        margin-bottom: 20px;
+    }
+    .footer-section a {
+        display: block; /* Ensure links stack vertically */
+        margin-bottom: 10px;
+    }
+    .footer-section .second-row .form-control {
+        width: 100%; /* Make input fields full width */
+        margin-bottom: 10px;
+    }
+    .footer-section .second-row .btn {
+        width: 100%; /* Make button full width */
     }
 }
 
