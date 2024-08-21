@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calistoga&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Kalnia+Glaze:wght@100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="https://www.amtmindia.org/wp-content/uploads/2021/08/AMTM-Logo-01-2048x2048.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              work
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">what we do</a></li>
+              <li><a class="dropdown-item" href="#">facilities</a></li>
+              <li><a class="dropdown-item" href="#">programs</a></li>
+            </ul>
+          </li>
+          <p>|</p>
+          <li><a class="nav-link" href="#">animals in care</a></li>
+          <p>|</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              fundraisers
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">neuter today</a></li>
+              <li><a class="dropdown-item" href="#">care for our cows</a></li>
+              <li><a class="dropdown-item" href="#">help fund a trained team</a></li>
+            </ul>
+          </li>
+          <p>|</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              get involved
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Adoptions</a></li>
+              <li><a class="dropdown-item" href="#">volunteer</a></li>
+              <li><a class="dropdown-item" href="#">donate</a></li>
+            </ul>
+          </li>
+          <p>|</p>
+          <li class="nav-item dropdown me-5">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              who we are
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">blog</a></li>
+              <li><a class="dropdown-item" href="#">jobs</a></li>
+            </ul>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-warning mx-5">donate</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+  <div class="section" id="banner">
+    <div class="container-fluid" id="banner-content">
+      <div class="card col-3">
+        <div class="card-body">
+          <h5 class="card-title">Help us help them.</h5>
+          <p class="card-text">Every day, we come across countless animals in need of rescuing, nourishment, medical
+            aid, shelter and rehabilitation.</p><strong>This is your chance to save a life.</strong><br><br>
+          <a href="#" class="btn btn-dark">support our cause</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Animal Treatment Section -->
+  <section id="animals_in_treatment">
+    <div class="container-fluid">
+      <h1 class="heading mb-4 mt-5">Animals In Treatment<br><img id="underline"
+          src="https://www.amtmindia.org/wp-content/uploads/elementor/thumbs/amtm-line-q9z998vluogaek502dsfaagg63twtx3c0ku4je8dia.png"
+          alt="Animals Matter to Me Line"></h1>
+
+      <div class="animal_cards d-flex">
+        <div class="card" style="width: 18rem; height: 35rem">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2024/07/Shaurya-1-300x204.jpeg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Shaurya</h4>
+            <p class="card-text">Shaurya, a 5-year-old male dog rescued from Malad East, desperately needs Rs. 25,000
+              for treatment of a severe back injury that has led to a maggot infection. The poor pup is in excruciating
+              pain and requires immediate medical attention to save his life. Please help this innocent animal in urgent
+              distress regain his health and freedom from suffering.</p>
+            <a href="#"
+              class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mt-3"><strong>Read
+                more & donate</strong></a>
+          </div>
+        </div>
+        <div class="card ms-3 me-3" style="width: 18rem;">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2024/07/Shera-225x300.jpeg" class="card-img-top"
+            alt="...">
+
+          <div class="card-body">
+            <h4 class="card-title">Shera</h4>
+            <p class="card-text">Shera, a one-year-old male cat rescued from Malad West, desperately needs Rs. 25,000
+              for medical treatment after being attacked by dogs, leaving him paralysed. The poor cat requires immediate
+              surgery and rehabilitation to have any chance of walking again. Your donation can provide Shera with the
+              care he needs to recover and find a loving home. Please help this innocent victim of a tragic accident
+              regain his health and mobility.</p>
+            <a href="#"
+              class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><strong>Read
+                more & donate</strong></a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2024/07/Brownie-225x300.jpeg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Brownie</h4>
+            <p class="card-text">Brownie, a one-year-old male cat rescued from Kharodi, Malad West, is in urgent need of
+              Rs. 20,000 for medical treatment of a severe leg wound sustained in an accident. The poor cat requires
+              immediate care to recover and avoid further suffering. Your donation can make a lifesaving difference for
+              Brownie.</p>
+            <a href="#"
+              class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><strong>Read
+                more & donate</strong></a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4 mb-5">
+        <button type="button" class="btn btn-dark col-2">see all animals in our care</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campaign Section -->
+  <section id="Campaign_Section">
+    <div class="container-fluid d-flex justify-content-center p-5">
+      <div class="card p-4" style="width: 30rem; height: 45rem">
+        <h2 class="card-title">We Require a Large Ambulance</h2>
+        <img
+          src="https://www.amtmindia.org/wp-content/uploads/2024/07/Large-Ambulance-Campaign_One-size-does-not-fit-all.jpg"
+          class="card-img-top" alt="..." style="width:90%; height: 60%">
+        <div class="card-body">
+          <p class="card-text">We urgently need a larger animal ambulance to provide timely emergency care for severely
+            injured cows and horses.</p><br>
+          <p class="card-text">Please donate to help us purchase this vital vehicle and save these animals’ lives.</p>
+          <a href="#" class="btn btn-dark">donate now</a>
+        </div>
+      </div>
+      <div class="card p-4" style="width: 30rem; height: 45rem">
+        <h2 class="card-title">A Bed In Need Is A Friend Indeed</h2>
+        <img src="https://www.amtmindia.org/wp-content/uploads/2022/01/Bed-11-2048x2048.jpg" class="card-img-top"
+          alt="..." style="width:90%; height: 60%">
+        <div class="card-body">
+          <p class="card-text">AMTM is procuring beds for the animals at the shelter. A total of 30 small, 90 medium and
+            30 large-sized beds will be purchased.</p><br>
+          <p class="card-text">Your contribution will help animals sleep better and live healthy lives.</p>
+          <a href="#" class="btn btn-dark">donate now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- animal care -->
+  <section id="animal_care">
+    <div class="container-fluid">
+      <h1 class="heading mb-4 mt-5">Animal care, tips and more on our blog<br><img id="underline"
+          src="https://www.amtmindia.org/wp-content/uploads/elementor/thumbs/amtm-line-q9z998vluogaek502dsfaagg63twtx3c0ku4je8dia.png"
+          alt="Animals Matter to Me Line"></h1>
+
+      <div class="animal_cards d-flex">
+        <div class="card" style="width: 18rem; height: 30rem">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2024/07/Blog-Web-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Introducing a New Pet to Your Existing Companion</h6>
+            <p class="card-text">July 24, 2024 No Comments</p>
+            <p class="card-text">Introducing a new pet to a jealous furry friend may take time and patience, but with
+              the right approach, it can lead to a harmonious household.</p>
+            <a href="#"
+              class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mt-1"><strong>Read
+                the blog post</strong></a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; height: 30rem">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2024/07/AMTM-Blog-Sep-2048x1072.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Introducing a New Pet to Your Existing Companion</h6>
+            <p class="card-text">July 10, 2024 1 Comment</p>
+            <p class="card-text">If you’re the proud parent of a furry (or scaly, or feathery) friend who sees bath time
+              as an extreme sport, fear not! We’ve got your back.</p>
+            <a href="#"
+              class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mt-1"><strong>Read
+                the blog post</strong></a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2024/07/AMTM-Blog-Sep-02-2048x1072.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Taming the Tricksters: A Guide to Administering Medication to Finicky Furballs</h6>
+            <p class="card-text">July 3, 2024 No Comments
+            </p>
+            <p class="card-text">Administering medication to our beloved pets can be a real challenge, especially when
+              dealing with stubborn dogs and cats who turn their noses up at anything remotely resembling a pill or
+              liquid. But fear not, pet parents! With a few clever tricks up your sleeve, you can turn even the fussiest
+              of furballs into compliant patients.</p>
+            <a href="#"
+              class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mt-1"><strong>Read
+                the blog post</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="banner-2">
+    <div class="container-fluid" style="background-color: #ffc400;padding:5%">
+      <div class="row d-flex justify-content-center">
+        <div class="col-4">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2021/10/dog-illustration.png" alt=""
+            style="width: 70%; height:80%; margin-left:30%">
+        </div>
+        <div class="col-5">
+          <img
+            src="https://www.amtmindia.org/wp-content/uploads/elementor/thumbs/amtm-india-logo-q9z98wnog2by0xwh6r0v860tqt2f5xoxi795xaozww.png"
+            alt="" style="width: 20%; height:30%; margin-bottom:5%">
+          <p><strong>Matters to Me (AMTM) is a clinical rescue facility for strays & abandoned ownerless animals, birds
+              & reptiles in need of help. We run a shelter cum hospital in Malad, Mumbai and offer services of Adoption,
+              Animal Shelter, Medical Treatment, Sterilisation & Animal Ambulance</strong></p>
+          <a href="#" class="btn btn-dark">know more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- final cards -->
+  <section id="final_cards">
+    <div class="container-fluid">
+      <div class="service_cards d-flex flex-row justify-content-center">
+        <div class="card" style="width: 18rem; height: 30rem">
+          <div class="card-body"
+            style="background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 204, 0, 1) 100%), url('https://w0.peakpx.com/wallpaper/117/13/HD-wallpaper-grayscale-of-person-and-dog-holding-hands-thumbnail.jpg');">
+            <h3 class="donate-content">Donate</h3>
+            <p>No amount is too small. It goes a long way to help animals at the rehab centre.</p>
+            <a href="#" class="btn btn-warning col-5" style="margin-top: 25%;">know more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; height: 30rem">
+          <div class="card-body "
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEa27CvPXAyG2-SBywkfqCildzmX5wxsVofg&s');">
+            <h3 class="donate-content" style="color: white;">Volunteer</h3>
+            <p style="color: white;">A few hours a week with the animals means the world to them, not to mention , the
+              memories that will stay with you for a lifetime.</p>
+            <a href="#" class="btn btn-warning col-5" style="margin-top: 16%;">know more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; height: 30rem">
+          <div class="card-body"
+            style="background-image: url('https://w0.peakpx.com/wallpaper/785/514/HD-wallpaper-grayscale-kitten-cat-cute-feline.jpg');">
+            <h3 class="donate-content">Adopt</h3>
+            <p>Don’t buy or breed animals while there are many animals deprived of a good home. Come visit us & you
+              might just meet your soulmate.</p>
+            <a href="#" class="btn btn-warning col-5" style="margin-top: 15%;">know more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <div class="container d-flex flex-row justify-content-center">
+        <div class="col-4">
+          <img src="https://www.amtmindia.org/wp-content/uploads/2021/08/AMTM-Logo-01-2048x2048.png" alt=""
+            style="width: 30%;">
+          <p>Animals Matter To Me (AMTM), Mumbai is a not-for-profit, legally registered charitable organisation in
+            India.</p>
+          <p><strong>Registration number F-41718</strong></p>
+          <p>Donations are exempt from Income Tax under Section 80-G of Indian IT Act 1961 No.AADTA0943KE2014 up to
+            A.Y. 2026-27 Cert No F/41718/Mumbai</p>
+          <p>AMTM is FCRA registered and can accept international donations.</p>
+          <p>Copyright 2024 Animals Matter to Me. All Rights Reserved</p>
+        </div>
+        <div class="right-side">
+          <div class="first-row d-flex">
+            <div class="col-2">
+              <h4>Work</h4>
+              <a href="#">Sterilization</a>
+              <a href="#">Medical Care</a>
+              <a href="#">Rescues</a>
+              <a href="#">Animal Ambulance</a>
+              <a href="#">Animals in care</a>
+            </div>
+            <div class="col-2">
+              <h4>Get Involved</h4>
+              <a href="#">Adoptions</a><br>
+              <a href="#">Volunteer</a><br>
+              <a href="#">Donate</a><br>
+              <a href="#">CSR Programs</a>
+            </div>
+            <div class="col-2">
+              <h4>About</h4>
+              <a href="#">About</a><br>
+              <a href="#">Jobs</a><br>
+              <a href="#">Blog</a><br>
+              <a href="#">Contact</a>
+            </div>
+            <div class="col-3">
+              <h4>Facilities</h4>
+              <a href="#">Animal Hospital</a><br>
+              <a href="#">Animal Sanctuary</a><br><br>
+              <h4>Programs</h4>
+              <a href="#">Community Outreach</a><br>
+              <a href="#">Feeding Programs</a>
+            </div>
+          </div>
+          <div class="second-row d-flex align-items-center">
+            <div class="col-6">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+              </form>
+            </div>
+            <div class="col">
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="third-row">
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refunds</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btm-nav fixed-bottom bg-dark">
+      <a href="#"><i class="fa-solid fa-phone"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+  </footer>
+  
+</body>
+
+</html>
